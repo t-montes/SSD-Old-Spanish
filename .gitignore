@@ -1,5 +1,9 @@
 *.parquet
 *.tsv
+*.csv
 *.pt
-data/*.json
+*.json
 sample/*
+!output/tokenizer/*
+!data/evaluation/*
+!evaluation/*
